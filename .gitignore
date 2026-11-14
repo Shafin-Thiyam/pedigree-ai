@@ -8,7 +8,7 @@
 venv/
 env/
 ENV/
-.python-version
+
 
 # Python bytecode and cache
 __pycache__/
