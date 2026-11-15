@@ -1,9 +1,9 @@
 from pedigree_ai.domain.enums import (
-    PedigreeSex,
-    PartnershipStatus,
     ParentageType,
-    RelationshipType,
+    PartnershipStatus,
+    PedigreeSex,
     RelationshipSource,
+    RelationshipType,
 )
 
 
