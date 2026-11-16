@@ -15,7 +15,6 @@ class PedigreeSchema(BaseModel):
         str_strip_whitespace=True,
     )
 
-
 # --------------------------------------------------
 # Create
 # --------------------------------------------------
@@ -33,12 +32,9 @@ class PedigreeCreate(PedigreeSchema):
         description="Optional description of the pedigree.",
     )
 
-
 # --------------------------------------------------
 # Update
 # --------------------------------------------------
-
-
 class PedigreeUpdate(PedigreeSchema):
     """Schema for partially updating an existing pedigree."""
 
@@ -63,12 +59,9 @@ class PedigreeUpdate(PedigreeSchema):
 
         return value
 
-
 # --------------------------------------------------
 # Read
 # --------------------------------------------------
-
-
 class PedigreeRead(PedigreeSchema):
     """Schema for returning pedigree information."""
 
